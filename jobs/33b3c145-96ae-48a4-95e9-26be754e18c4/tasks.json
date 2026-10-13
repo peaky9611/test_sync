@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1030314509748801537,
+      "job_id": "33b3c145-96ae-48a4-95e9-26be754e18c4",
+      "query": "REPLICATE [public].[cdc_engine_schema_version] SELECT * FROM [public].[cdc_engine_schema_version]",
+      "is_active": true
+    },
+    {
+      "id": 1030314509748801539,
+      "job_id": "33b3c145-96ae-48a4-95e9-26be754e18c4",
+      "query": "REPLICATE [public].[CHANGE_EVENTS] SELECT * FROM [public].[CHANGE_EVENTS]",
+      "is_active": true
+    },
+    {
+      "id": 1030314509748801541,
+      "job_id": "33b3c145-96ae-48a4-95e9-26be754e18c4",
+      "query": "REPLICATE [public].[DATATABLE2] SELECT * FROM [public].[DATATABLE2]",
+      "is_active": true
+    }
+  ]
+}
